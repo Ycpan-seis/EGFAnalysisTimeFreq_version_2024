@@ -21,7 +21,9 @@ The original stable version developed by **Huajian Yao** can be obtained as [**E
 
 ## Documentation
 
-For detailed instructions on program usage, please refer to the [manual](https://github.com/Ycpan-seis/EGFAnalysisTimeFreq_version_2024/blob/main/EGFAnalysisTimeFreq_Manual.pdf)
+For detailed instructions on program usage, please refer to the [manual](https://github.com/Ycpan-seis/EGFAnalysisTimeFreq_version_2024/blob/main/EGFAnalysisTimeFreq_Manual.pdf), which provide a complete description of the workflow, input/output formats, and underlying methodology.
+
+
 
 ---
 
