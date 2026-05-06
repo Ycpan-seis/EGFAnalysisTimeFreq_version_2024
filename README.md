@@ -4,7 +4,7 @@
 
 ---
 
-## Origin / Stable Version
+## Origin Version
 
 The original stable version developed by **Huajian Yao** can be obtained as [**EGFAnalysisTimeFreq_version_2015**](https://yaolab.ustc.edu.cn/_upload/tpl/10/f0/4336/template4336/pdf/EGFAnalysisTimeFreq_version_2015.zip)  
 
@@ -23,6 +23,7 @@ The original stable version developed by **Huajian Yao** can be obtained as [**E
 
 For detailed instructions on program usage, please refer to the [manual](https://github.com/Ycpan-seis/EGFAnalysisTimeFreq_version_2024/blob/main/EGFAnalysisTimeFreq_Manual.pdf), which provide a complete description of the workflow, input/output formats, and underlying methodology.
 
+In the automatic mode, the parameter `r_dcdt`, which constrains the slope of the dispersion curves, is very important. A reference value is provided, but it may need adjustment depending on the dataset. Users are encouraged to experiment with `r_dcdt` to achieve optimal results.
 
 
 ---
