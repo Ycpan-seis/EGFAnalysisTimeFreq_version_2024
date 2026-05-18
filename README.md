@@ -13,7 +13,7 @@ The original stable version developed by **Huajian Yao** can be obtained as [**E
 ## New Modifications in Version 2024
 
 - Improved the previous automatic dispersion picking code, making it a more efficient and stable version.
-- Provided a forward 3D phase/group velocity computation package based on CPS for 3D reference dispersion calculations.
+- Provided a forward 3D phase/group velocity computation package based on CPS for 3D reference dispersion calculations. ([**SurfDispMap**](https://github.com/Ycpan-seis/SurfDispMap))
 - Fixed several bugs present in the previous version.
 - Updated the user manual to reflect all changes and enhancements.
 
