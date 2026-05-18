@@ -718,14 +718,14 @@ for i = StartIndex:EndIndex
     % obtain the name of two stations
     for kk = 1:stanum
         locmis1 = abs(g_allsta(kk).lon - gfcn.Lon1) + abs(g_allsta(kk).lat - gfcn.Lat1);
-        if locmis1 < 0.01  % modified by Yichen, 2025/6/19, The original accuracy is no longer sufficient when dealing with dense array data
+        if locmis1 < 0.001  % modified by Yichen, 2025/6/19, The original accuracy is no longer sufficient when dealing with dense array data
             gfcn.Name1 = g_allsta(kk).name;
             break
         end
     end
     for kk = 1:stanum
         locmis2 = abs(g_allsta(kk).lon - gfcn.Lon2) + abs(g_allsta(kk).lat - gfcn.Lat2);
-        if locmis2 < 0.01
+        if locmis2 < 0.001
             gfcn.Name2 = g_allsta(kk).name;
             break
         end
