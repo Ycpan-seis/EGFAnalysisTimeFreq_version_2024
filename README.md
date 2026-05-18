@@ -23,6 +23,19 @@ The original stable version developed by **Huajian Yao** can be obtained as [**E
 
 For detailed instructions on program usage, please refer to the [manual](https://github.com/Ycpan-seis/EGFAnalysisTimeFreq_version_2024/blob/main/EGFAnalysisTimeFreq_Manual.pdf), which provide a complete description of the workflow, input/output formats, and underlying methodology.
 
+Here, we only present the newly modified parts related to the automatic mode.”
+> Users can click **3D Ref C/G Disper Great Circle**, then select the packaged .mat file(e.g., **RaylTB.mat**).
+>
+> The .mat file includes six MATLAB matrices:
+>
+> *disperT_m*, *lat_m*, *lon_m*, *disp3D_phase*, *disp3D_group* and *ref_range*
+>
+> *disperT_m*, *lat_m*, *lon_m*, *disp3D_phase* and *disp3D_group* correspond to the dispersion period, latitude, longitude, reference phase velocity, and reference group velocity for each data point, respectively. The format is latitude points * longitude points * number of periods.
+>
+> *ref_range* represents the tolerance range, with a format of number of periods * 2. (The first column is the period and the second column is reference values (percentage))
+
+**The input .mat file can be prepared use [SurfDispMap](https://github.com/Ycpan-seis/SurfDispMap).**
+
 In the automatic mode, the parameter `r_dcdt`, which constrains the slope of the dispersion curves, is very important. A reference value is provided, but it may need adjustment depending on the dataset. Users are encouraged to experiment with `r_dcdt` to achieve optimal results.
 
 
